@@ -26,7 +26,7 @@ public class ServerSocketHandler extends SimpleChannelInboundHandler<TextWebSock
 	private ChannelHandlerContext channelCtx = null;
 	// they way the client authenticates isn't great but I don't have time to figure out ssl
 	private boolean authenticated = false;
-	private String authenticationPassword = "[Authentication password. Change this!]";
+	private String authenticationPassword = "j3ev8uphlaclaMl6";
 	
 	public ServerSocketHandler(ComsLibAdapter comsLibAdapter) {
 		this.comsLibAdapter = comsLibAdapter;
